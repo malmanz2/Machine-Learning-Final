@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/content/content/synth/main.py", line 325, in <module>
+    main()
+  File "/content/content/synth/main.py", line 320, in main
+    solve_si(data, args)
+  File "/content/content/synth/main.py", line 254, in solve_si
+    from fancyimpute import SoftImpute, BiScaler
+ModuleNotFoundError: No module named 'fancyimpute'
